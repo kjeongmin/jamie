@@ -1266,14 +1266,15 @@ h5 {
 }
 
 .popup_inner {
-  width: 360px;
+   width: 360px;
   height: 400px;
   background: #fff;
-  top: 20%;
-  left: 38%;
-  position: fixed;
+  top: 50%;
+  left:50%;
+  position: absolute;
   display: block;
   border-radius: 10px;
+  transform: translate(-50%, -50%);
 }
 
 .popup_inner .insta {
