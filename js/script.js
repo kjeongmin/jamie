@@ -8,7 +8,7 @@ $(function () {
 	});
 });
 /*서브메뉴*/
-/*팝업*/
+/*팝업inster*/
 $(function () {
 	$(".sns ul li:nth-child(1)").click(function () {
 		$("#popup").show();
@@ -17,6 +17,14 @@ $(function () {
 		$("#popup").hide();
 	});
 });
-/*팝업*/
+/*팝업inster*/
+/*팝업 광고*/
+$(function () {
+
+	$("#popupk p").click(function () {
+		$("#popupk").hide();
+	});
+});
+/*팝업 광고*/
 
 
