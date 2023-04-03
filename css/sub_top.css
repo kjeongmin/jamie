@@ -592,6 +592,7 @@ h3 {
 
 #menumu_sub ul .all a {
   background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #888;
 }
 
 #menumu_sub ul li:nth-child(6) {
