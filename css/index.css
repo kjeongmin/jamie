@@ -371,7 +371,7 @@ h3 {
 
 .text1 {
   width: 100%;
-  height: 85px;
+  height: 80px;
   padding: 8px 0 37px 0;
 
 
@@ -379,15 +379,21 @@ h3 {
 
 .text1 .NEW_s {
   font-weight: 500;
+
 }
 
 .text1 .NEW_s0 {
-
-  width: 100px;
+  float: left;
+  width: 270px;
   height: 10px;
   margin-bottom: 5px;
+
 }
 
+.text1 .NEW_s0kt {
+  float: right;
+
+}
 
 
 .text1 .NEW_s1 {
@@ -929,6 +935,9 @@ h4 {
 
 .NEW_ARRIVAL1 .op,
 .NEW_ARRIVAL1_1 .op {
+  width: 127px;
+  height: 25px;
+
   padding-bottom: 5px;
 }
 
