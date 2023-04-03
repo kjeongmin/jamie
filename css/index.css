@@ -1430,3 +1430,29 @@ input {
 }
 
 /*푸터*/
+/*팝업*/
+
+#popupk {
+  background: rgb(248, 243, 215);
+  border-radius: 0 0 8px 8px;
+  width: 500px;
+  position: fixed;
+  z-index: 99;
+  height: 335px;
+  left: 50%;
+  top: 50%;
+  display: block;
+  transform: translate(-46%, -60%);
+}
+
+#popupk img {
+  width: 500px;
+  height: 300px;
+}
+
+#popupk p {
+  padding: 0px 20px 0px 0;
+  float: right;
+}
+
+/*팝업*/
