@@ -215,6 +215,11 @@ h4 {
   float: left;
 }
 
+.box_ITEMS_1 img {
+  width: 214px;
+
+}
+
 .box_ITEMS_1:nth-child(5) {
   padding-right: 0;
 }
@@ -282,9 +287,7 @@ h4 {
 
   transform: translateY(-105px);
 }
-.box_ITEMS_1 img {width: 214px;
 
-}
 /*골지 니트 나시 가디건 세트*/
 #text_ITEMS .color .color1 {
   width: 15px;
@@ -566,7 +569,7 @@ h3 {
 
 
 #menumu_sub ul {
-  width: 765px;
+  width: 763px;
   height: 30px;
   margin: auto;
 }
@@ -589,7 +592,6 @@ h3 {
 
 #menumu_sub ul .all a {
   background: rgba(255, 255, 255, 0.7);
-  border: 1px solid #888;
 }
 
 #menumu_sub ul li:nth-child(6) {
@@ -598,15 +600,36 @@ h3 {
 
 #menumu_sub ul li a:hover {
   background: rgba(255, 255, 255, 0.7);
-    border: 1px solid #888;
+  border: 1px solid #888;
 }
 
 /*큰박스*/
+#menumu_sub {
+  height: 120px;
+}
+
 #list_ITEMS {
-  padding-top: 100px;
+
   width: 1144px;
   height: 3300px;
   margin: auto;
+}
+
+#menumu_subs {
+  height: 45px;
+}
+
+.list_ITEMS_uol {
+  float: right;
+}
+
+.list_ITEMS_uol li {
+  float: left;
+}
+
+.list_ITEMS_uol li a {
+  color: #6c6c6c;
+  font-weight: bold;
 }
 
 /*1줄*/
@@ -833,6 +856,7 @@ del {
   border-radius: 2px;
   margin-right: 5px;
 }
+
 .list_ITEMS1 .color .color2_6 {
   width: 15px;
   height: 10px;
@@ -841,6 +865,7 @@ del {
   border-radius: 2px;
   margin-right: 5px;
 }
+
 .list_ITEMS1 .color .color3_6 {
   width: 15px;
   height: 10px;
@@ -848,6 +873,7 @@ del {
   float: left;
   border-radius: 2px;
 }
+
 /*유프리아 스판 U넥 크롭 티셔츠*/
 /*레브릿 스판 오픈카라 랩스타일 뒷리본 블라우스*/
 .list_ITEMS1 .color .color1_7 {
@@ -858,6 +884,7 @@ del {
   border-radius: 2px;
   margin-right: 5px;
 }
+
 .list_ITEMS1 .color .color2_7 {
   width: 15px;
   height: 10px;
@@ -866,6 +893,7 @@ del {
   border-radius: 2px;
   margin-right: 5px;
 }
+
 /*레브릿 스판 오픈카라 랩스타일 뒷리본 블라우스*/
 /*어빌리쿠 크롭 카라넥 셔츠*/
 .list_ITEMS1 .color .color1_8 {
@@ -877,6 +905,7 @@ del {
   border-radius: 2px;
   border: 1px solid #000;
 }
+
 .list_ITEMS1 .color .color2_8 {
   width: 15px;
   height: 10px;
@@ -885,6 +914,7 @@ del {
   border-radius: 2px;
   margin-right: 5px;
 }
+
 .list_ITEMS1 .color .color3_8 {
   width: 15px;
   height: 10px;
@@ -893,6 +923,7 @@ del {
   border-radius: 2px;
   margin-right: 5px;
 }
+
 .list_ITEMS1 .color .color4_8 {
   width: 15px;
   height: 10px;
@@ -901,6 +932,7 @@ del {
   border-radius: 2px;
   margin-right: 5px;
 }
+
 /*어빌리쿠 크롭 카라넥 셔츠*/
 
 /*데이픈 블라우스 나시*/
@@ -913,6 +945,7 @@ del {
   border-radius: 2px;
   border: 1px solid #000;
 }
+
 .list_ITEMS1 .color .color2_9 {
   width: 15px;
   height: 10px;
@@ -934,6 +967,7 @@ del {
   border-radius: 2px;
   border: 1px solid #000;
 }
+
 .list_ITEMS1 .color .color2_10 {
   width: 15px;
   height: 10px;
@@ -955,6 +989,7 @@ del {
   border-radius: 2px;
   border: 1px solid #000;
 }
+
 .list_ITEMS1 .color .color2_11 {
   width: 15px;
   height: 10px;
@@ -990,6 +1025,7 @@ del {
   border: 1px solid #000;
 
 }
+
 .list_ITEMS1 .color .color2_13 {
   width: 15px;
   height: 10px;
@@ -1026,6 +1062,7 @@ del {
   border-radius: 2px;
 
 }
+
 .list_ITEMS1 .color .color2_15 {
   width: 15px;
   height: 10px;
