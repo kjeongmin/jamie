@@ -280,9 +280,11 @@ h4 {
 
 #text_ITEMS {
 
-  transform: translateY(-107px);
+  transform: translateY(-105px);
 }
+.box_ITEMS_1 img {width: 214px;
 
+}
 /*골지 니트 나시 가디건 세트*/
 #text_ITEMS .color .color1 {
   width: 15px;
