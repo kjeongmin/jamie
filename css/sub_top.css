@@ -1,0 +1,1499 @@
+/*폰트연결*/
+/*한림고딕체*/
+@font-face {
+  font-family: 'HallymGothic-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymGothic-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*한림고딕체*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #2a2d2f;
+}
+
+ul {
+  list-style: none;
+
+}
+
+body {
+  font-family: "윤고딕";
+  font-size: 14px;
+  line-height: 24px;
+  color: #1c1c19;
+  min-width: 1320px;
+}
+
+
+
+/*1320px 가운데 정렬 박스*/
+
+/*상단헤더*/
+#header {
+  width: 1320px;
+  margin: auto;
+  height: 90px;
+}
+
+h1 {
+  float: left;
+  padding: 0 0 0 55px;
+
+}
+
+#menu {
+  width: 480px;
+  height: 40px;
+  float: right;
+  margin-top: 10px;
+}
+
+.menuk>li {
+  float: left;
+  position: relative;
+  padding: 5px 20px 0 0;
+}
+
+.menuk>li>a {
+  display: block;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+
+/*검색기능*/
+#look {
+  float: right;
+  padding: 10px 60px 0 0;
+
+}
+
+.search .input {
+  width: 150px;
+  outline-style: none;
+  padding: 2px 2px;
+  border-radius: 3px;
+  float: left;
+  margin-right: 5px;
+}
+
+.search img {
+  width: 18px;
+  height: 18px;
+}
+
+/*검색기능*/
+
+/*상단헤더*/
+/*메뉴바*/
+#header_1 {
+  height: 40px;
+  border-bottom: solid 1px #1c1c19;
+  background: #dfdfdf;
+  border-top: solid 1px #1c1c19;
+}
+
+#header_1s {
+  width: 1320px;
+  margin: auto;
+  height: 40px;
+}
+
+.nav {
+  float: left;
+  padding-left: 13px;
+}
+
+.nav>li {
+  float: left;
+  position: relative;
+}
+
+.nav>li>a {
+  display: block;
+  width: 120px;
+  padding: 8px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.nav>li>a:hover {
+  font-weight: 700;
+  background: #ffffff;
+}
+
+.sub {
+  background: #dfdfdf;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+  display: none;
+}
+
+.sub a {
+  display: block;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.sub a:hover {
+  font-weight: 700;
+  background: #ffffff;
+}
+
+.menu_ss {
+  float: right;
+  padding-right: 42px;
+}
+
+.menu_ss li {
+  float: left;
+}
+
+.menu_ss li a {
+  display: block;
+  width: 65px;
+  padding: 8px 0;
+  text-align: center;
+  font-size: 13px;
+}
+
+
+/*메뉴바*/
+/*BEST ITEMS*/
+#box {
+  width: 1320px;
+  margin: auto;
+}
+
+.home {
+  padding: 20px 0 40px 10px;
+}
+
+h4 {
+  font-size: 18px;
+  text-align: center;
+}
+
+.h4_i {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+#box_ITEMS {
+  width: 1120px;
+  height: 640px;
+  margin: auto;
+
+}
+
+.box_ITEMS_0 {
+  width: 1120px;
+  height: 270px;
+  padding-bottom: 15px;
+}
+
+.box_ITEMS_0:nth-child(2) {
+  padding-bottom: 0;
+}
+
+.box_ITEMS_1 {
+  padding-right: 12px;
+  width: 214px;
+  height: 270px;
+
+  float: left;
+}
+
+.box_ITEMS_1 img {
+  width: 214px;
+
+}
+
+.box_ITEMS_1:nth-child(5) {
+  padding-right: 0;
+}
+
+.box_ITEMS_1 ul,
+.box_ITEMS_2 ul {
+  width: 214px;
+  height: 270px;
+}
+
+#text_ITEMS {
+  background: rgba(255, 245, 245, 0.8);
+  width: 100%;
+  height: 100px;
+}
+
+#text_ITEMS .color,
+#text_ITEMS .ltems_name,
+#text_ITEMS .money,
+#text_ITEMS .pass {
+  margin-left: 20px;
+}
+
+#text_ITEMS .color {
+  width: 120px;
+  height: 15px;
+  padding-top: 5px;
+  margin: 0 5px 0 20px;
+}
+
+#text_ITEMS .money del {
+  font-size: 12px;
+  color: #848789;
+  margin-right: 10px;
+}
+
+#text_ITEMS .money .red {
+  font-size: 15px;
+  color: #ff0000;
+  font-weight: 700;
+}
+
+#text_ITEMS .pass .free {
+  margin-right: 10px;
+  font-size: 12px;
+  color: #fff;
+  border: 2px solid #ff0000;
+  background: #f6a5b7;
+  padding: 2px 4px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#text_ITEMS .pass .discount {
+  font-size: 12px;
+  color: #49be82;
+  border: 2px solid #6c9c58;
+  background: #fff;
+  padding: 2px 4px;
+  font-weight: 700;
+  text-align: center;
+}
+
+#text_ITEMS {
+
+  transform: translateY(-105px);
+}
+
+/*골지 니트 나시 가디건 세트*/
+#text_ITEMS .color .color1 {
+  width: 15px;
+  height: 10px;
+  background: #7f6b5a;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color2 {
+  width: 15px;
+  height: 10px;
+  background: #000;
+  float: left;
+  border-radius: 2px;
+}
+
+/*골지 니트 나시 가디건 세트*/
+/*스트라이프 카라 셔츠*/
+#text_ITEMS .color .color1_1 {
+  width: 15px;
+  height: 10px;
+  background: #b2adae;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+/*스트라이프 카라 셔츠*/
+/*뷔스티에 원피스 블라우스 세트*/
+#text_ITEMS .color .color1_2 {
+  width: 15px;
+  height: 10px;
+  background: #7f6b5a;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color2_2 {
+  width: 15px;
+  height: 10px;
+  background: #baa799;
+  float: left;
+  border-radius: 2px;
+}
+
+/*뷔스티에 원피스 블라우스 세트*/
+/*투웨이 세미크롭 티셔츠*/
+#text_ITEMS .color .color1_3 {
+  width: 14px;
+  height: 8px;
+  background: #fff;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+#text_ITEMS .color .color2_3 {
+  width: 15px;
+  height: 10px;
+  background: #c7b8b2;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color3_3 {
+  width: 15px;
+  height: 10px;
+  background: #cda4a4;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color4_3 {
+  width: 15px;
+  height: 10px;
+  background: #000;
+  float: left;
+  border-radius: 2px;
+}
+
+/*투웨이 세미크롭 티셔츠*/
+/*스판 반폴라 루즈핏 티셔츠*/
+#text_ITEMS .color .color1_4 {
+  width: 15px;
+  height: 10px;
+  background: #b08472;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color2_4 {
+  width: 15px;
+  height: 10px;
+  background: #000;
+  float: left;
+  border-radius: 2px;
+}
+
+/*스판 반폴라 루즈핏 티셔츠*/
+/*프린팅 라운드넥 반팔 티셔츠*/
+#text_ITEMS .color .color1_5 {
+  width: 15px;
+  height: 10px;
+  background: #d8a9aa;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color2_5 {
+  width: 15px;
+  height: 10px;
+  background: #605251;
+  float: left;
+  border-radius: 2px;
+}
+
+/*프린팅 라운드넥 반팔 티셔츠*/
+/*배색 스트라이프 루즈핏 니트*/
+#text_ITEMS .color .color1_6 {
+  width: 14px;
+  height: 8px;
+  background: #fff;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+#text_ITEMS .color .color2_6 {
+  width: 15px;
+  height: 10px;
+  background: #a9bbd0;
+  float: left;
+  border-radius: 2px;
+}
+
+/*배색 스트라이프 루즈핏 니트*/
+/*스트라이프 카라 세미크롭 니트*/
+#text_ITEMS .color .color1_7 {
+  width: 14px;
+  height: 8px;
+  background: #fff;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+#text_ITEMS .color .color2_7 {
+  width: 15px;
+  height: 10px;
+  background: #dda666;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color3_7 {
+  width: 15px;
+  height: 10px;
+  background: #000;
+  float: left;
+  border-radius: 2px;
+}
+
+/*스트라이프 카라 세미크롭 니트*/
+/*베이직 루즈 셔츠*/
+#text_ITEMS .color .color1_8 {
+  width: 14px;
+  height: 8px;
+  background: #f5f2eb;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+#text_ITEMS .color .color2_8 {
+  width: 15px;
+  height: 10px;
+  background: #890f23;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color3_8 {
+  width: 15px;
+  height: 10px;
+  background: #587795;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color4_8 {
+  width: 15px;
+  height: 10px;
+  background: #000;
+  float: left;
+  border-radius: 2px;
+}
+
+/*베이직 루즈 셔츠*/
+/*루즈핏 라운드넥 맨투맨*/
+/*베이직 루즈 셔츠*/
+#text_ITEMS .color .color1_9 {
+  width: 14px;
+  height: 8px;
+  background: #fff;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+#text_ITEMS .color .color2_9 {
+  width: 15px;
+  height: 10px;
+  background: #d7d7db;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color3_9 {
+  width: 15px;
+  height: 10px;
+  background: #e9d7a5;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color4_9 {
+  width: 15px;
+  height: 10px;
+  background: #c064e2;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color5_9 {
+  width: 15px;
+  height: 10px;
+  background: #2a2242;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+#text_ITEMS .color .color6_9 {
+  width: 15px;
+  height: 10px;
+  background: #000;
+  float: left;
+  border-radius: 2px;
+}
+
+/*루즈핏 라운드넥 맨투맨*/
+
+/*BEST ITEMS*/
+/*TOP*/
+h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+
+#menumu_sub ul {
+  width: 763px;
+  height: 30px;
+  margin: auto;
+}
+
+#menumu_sub ul li {
+  float: left;
+  padding-right: 25px;
+
+}
+
+#menumu_sub ul li a {
+  font-size: 16px;
+  text-decoration-line: underline;
+  font-weight: 700;
+
+  padding: 8px 24px;
+  border-radius: 20px;
+
+}
+
+#menumu_sub ul .all a {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+#menumu_sub ul li:nth-child(6) {
+  padding-right: 0;
+}
+
+#menumu_sub ul li a:hover {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #888;
+}
+
+/*큰박스*/
+#menumu_sub {
+  height: 120px;
+}
+
+#list_ITEMS {
+
+  width: 1144px;
+  height: 3300px;
+  margin: auto;
+}
+
+#menumu_subs {
+  height: 45px;
+}
+
+.list_ITEMS_uol {
+  float: right;
+}
+
+.list_ITEMS_uol li {
+  float: left;
+}
+
+.list_ITEMS_uol li a {
+  color: #6c6c6c;
+  font-weight: bold;
+}
+
+/*1줄*/
+#list_ITEMS_box {
+  width: 1144px;
+  height: 445px;
+  padding-bottom: 60px;
+
+}
+
+/*1_1*/
+.list_ITEMS1 {
+  width: 275px;
+  height: 445px;
+  float: left;
+  padding-right: 13px;
+}
+
+.list_ITEMS1 ul {
+  width: 280px;
+  height: 445px;
+  float: left;
+}
+
+.list_ITEMS1:nth-child(4) {
+  padding-right: 5px;
+}
+
+/*이미지*/
+
+.list_ITEMS1 ul li {
+  width: 280px;
+  height: 340px;
+}
+
+.list_ITEMS1 ul li a img {
+  width: 280px;
+  height: 340px;
+}
+
+/*글*/
+
+
+.list_ITEMS1 .color,
+.list_ITEMS1 .name,
+.list_ITEMS1 .number,
+.list_ITEMS1 .pass {
+  margin-left: 15px;
+}
+
+.list_ITEMS1 .size {
+  margin-right: 15px;
+}
+
+.list_ITEMS1 .color {
+  width: 180px;
+  height: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+.list_ITEMS1 .size {
+  float: right;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.list_ITEMS1 .number span {
+  font-size: 15px;
+  color: #ff0000;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+del {
+  color: #848789;
+  font-size: 12px;
+}
+
+.list_ITEMS1 .pass span {
+  margin-right: 7px;
+  font-size: 12px;
+  color: #fff;
+  border: 2px solid #ff0000;
+  background: #f6a5b7;
+  padding: 2px 4px;
+  font-weight: 700;
+}
+
+.list_ITEMS1 .pass .discount {
+  font-size: 12px;
+  color: #49be82;
+  border: 2px solid #6c9c58;
+  background: #fff;
+  padding: 2px 4px;
+  font-weight: 700;
+}
+
+/*TOP*/
+/*심플 스퀘어 니트 나시 티셔츠*/
+.list_ITEMS1 .color .color1_1 {
+  width: 14px;
+  height: 9px;
+  background: #fff;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+.list_ITEMS1 .color .color2_1 {
+  width: 15px;
+  height: 10px;
+  background: #7eb8e4;
+  float: left;
+  border-radius: 2px;
+}
+
+/*심플 스퀘어 니트 나시 티셔츠*/
+/*스판 사선 스트랩 브이넥 티셔츠*/
+.list_ITEMS1 .color .color1_2 {
+  width: 14px;
+  height: 9px;
+  background: #fff1e5;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+.list_ITEMS1 .color .color2_2 {
+  width: 15px;
+  height: 10px;
+  background: #383737;
+  float: left;
+  border-radius: 2px;
+}
+
+/*스판 사선 스트랩 브이넥 티셔츠*/
+/*케이블 라인배색 울 니트*/
+.list_ITEMS1 .color .color1_3 {
+  width: 14px;
+  height: 9px;
+  background: #efecd8;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: 1px solid #000;
+}
+
+.list_ITEMS1 .color .color2_3 {
+  width: 15px;
+  height: 10px;
+  background: #918169;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.list_ITEMS1 .color .color3_3 {
+  width: 15px;
+  height: 10px;
+  background: #555555;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.list_ITEMS1 .color .color4_3 {
+  width: 15px;
+  height: 10px;
+  background: #000;
+  float: left;
+  border-radius: 2px;
+}
+
+/*케이블 라인배색 울 니트*/
+/*시스루 셔츠*/
+.list_ITEMS1 .color .color1_4 {
+  width: 14px;
+  height: 9px;
+  background: #fff;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid #000;
+}
+
+.list_ITEMS1 .color .color2_4 {
+  width: 15px;
+  height: 10px;
+  background: #000;
+  float: left;
+  border-radius: 2px;
+}
+
+/*시스루 셔츠*/
+/*레터링 자수 세미 크롭 후드 티셔츠*/
+.list_ITEMS1 .color .color1_5 {
+  width: 14px;
+  height: 9px;
+  background: #dcdcdc;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid #000;
+}
+
+.list_ITEMS1 .color .color2_5 {
+  width: 15px;
+  height: 10px;
+  background: #3e3e3e;
+  float: left;
+  border-radius: 2px;
+}
+
+/*레터링 자수 세미 크롭 후드 티셔츠*/
+/*유프리아 스판 U넥 크롭 티셔츠*/
+.list_ITEMS1 .color .color1_6 {
+  width: 15px;
+  height: 10px;
+  background: #ffe9bc;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.list_ITEMS1 .color .color2_6 {
+  width: 15px;
+  height: 10px;
+  background: #97c5d7;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.list_ITEMS1 .color .color3_6 {
+  width: 15px;
+  height: 10px;
+  background: #000000;
+  float: left;
+  border-radius: 2px;
+}
+
+/*유프리아 스판 U넥 크롭 티셔츠*/
+/*레브릿 스판 오픈카라 랩스타일 뒷리본 블라우스*/
+.list_ITEMS1 .color .color1_7 {
+  width: 15px;
+  height: 10px;
+  background: #c9d0d2;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.list_ITEMS1 .color .color2_7 {
+  width: 15px;
+  height: 10px;
+  background: #000000;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+/*레브릿 스판 오픈카라 랩스타일 뒷리본 블라우스*/
+/*어빌리쿠 크롭 카라넥 셔츠*/
+.list_ITEMS1 .color .color1_8 {
+  width: 14px;
+  height: 9px;
+  background: #fff;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid #000;
+}
+
+.list_ITEMS1 .color .color2_8 {
+  width: 15px;
+  height: 10px;
+  background: #b4d9ff;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.list_ITEMS1 .color .color3_8 {
+  width: 15px;
+  height: 10px;
+  background: #d7d7d7;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.list_ITEMS1 .color .color4_8 {
+  width: 15px;
+  height: 10px;
+  background: #000000;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+/*어빌리쿠 크롭 카라넥 셔츠*/
+
+/*데이픈 블라우스 나시*/
+.list_ITEMS1 .color .color1_9 {
+  width: 14px;
+  height: 9px;
+  background: #fff;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid #000;
+}
+
+.list_ITEMS1 .color .color2_9 {
+  width: 15px;
+  height: 10px;
+  background: #d5c281;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+/*데이픈 블라우스 나시*/
+
+/*레터링 옆트임 루즈핏 티셔츠*/
+.list_ITEMS1 .color .color1_10 {
+  width: 14px;
+  height: 9px;
+  background: #fff;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid #000;
+}
+
+.list_ITEMS1 .color .color2_10 {
+  width: 15px;
+  height: 10px;
+  background: #7aa3e5;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+/*레터링 옆트임 루즈핏 티셔츠*/
+
+/*골지 니트 나시 가디건 세트*/
+.list_ITEMS1 .color .color1_11 {
+  width: 14px;
+  height: 9px;
+  background: #fff;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid #000;
+}
+
+.list_ITEMS1 .color .color2_11 {
+  width: 15px;
+  height: 10px;
+  background: #e4acda;
+  float: left;
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+/*골지 니트 나시 가디건 세트*/
+/*플라워 프릴 리본 타이 블라우스*/
+.list_ITEMS1 .color .color1_12 {
+  width: 15px;
+  height: 10px;
+  background: #e8dab1;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+
+}
+
+
+/*플라워 프릴 리본 타이 블라우스*/
+
+/*램토 라운드넥 루즈핏 티셔츠*/
+.list_ITEMS1 .color .color1_13 {
+  width: 14px;
+  height: 9px;
+  background: #ffffff;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+  border: 1px solid #000;
+
+}
+
+.list_ITEMS1 .color .color2_13 {
+  width: 15px;
+  height: 10px;
+  background: #bbd373;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+
+}
+
+/*램토 라운드넥 루즈핏 티셔츠*/
+
+/*스피립 스트라이프 보트넥 니트*/
+.list_ITEMS1 .color .color1_14 {
+  width: 15px;
+  height: 10px;
+  background: #dfa1cc;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+
+}
+
+
+/*스피립 스트라이프 보트넥 니트*/
+
+/*히드닐 실키 카라 블라우스*/
+.list_ITEMS1 .color .color1_15 {
+  width: 15px;
+  height: 10px;
+  background: #a2a2a2;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+
+}
+
+.list_ITEMS1 .color .color2_15 {
+  width: 15px;
+  height: 10px;
+  background: #000000;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+
+}
+
+
+/*히드닐 실키 카라 블라우스*/
+
+/*몬드빌리 스트라이프 카라 셔츠*/
+.list_ITEMS1 .color .color1_16 {
+  width: 15px;
+  height: 10px;
+  background: #e2b4ea;
+  float: left;
+  margin-right: 5px;
+  border-radius: 2px;
+
+}
+
+
+/*몬드빌리 스트라이프 카라 셔츠*/
+/*단추*/
+#mini_box {
+  width: 118px;
+  height: 200px;
+  margin: auto;
+}
+
+#mini_box .on0p img {
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+}
+
+#mini_box .on1 {
+  width: 21px;
+  height: 21px;
+  margin: 0 7px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  background: rgba(154, 154, 154, 0.5);
+}
+
+#mini_box .on2 {
+  width: 21px;
+  height: 21px;
+  margin-right: 7px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
+#mini_box .on2:hover {
+  background: rgba(154, 154, 154, 0.5);
+}
+
+#mini_box .onp img {
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+  margin-right: 7px;
+}
+
+#mini_box .onp1 img {
+  display: inline-block;
+  width: 12px;
+  height: 11px;
+}
+
+/*단추*/
+/*푸터*/
+#footer {
+  height: 360px;
+  background-color: #ebebeb;
+}
+
+.footer_inner {
+  width: 1200px;
+  height: 150px;
+  padding-top: 60px;
+  margin: auto;
+}
+
+/*INFORMATION*/
+.INFORMATION {
+  width: 300px;
+  height: 130px;
+  float: left;
+  border-right: 1px solid #1c1c19;
+}
+
+.INFORMATION .ln {
+  padding-bottom: 8px;
+}
+
+.INFORMATION .ln a {
+  font-weight: 700;
+  font-family: 윤고딕;
+  font-size: 18px;
+}
+
+.INFORMATION li {
+  padding-left: 30px;
+}
+
+.INFORMATION .li a {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 윤고딕;
+  color: #616161;
+}
+
+/*INFORMATION*/
+/*CS CENTER*/
+.CS_CENTER {
+  width: 280px;
+  height: 130px;
+  float: left;
+  border-right: 1px solid #1c1c19;
+}
+
+.CS_CENTER .ln {
+  padding-bottom: 8px;
+}
+
+.CS_CENTER .ln a {
+  font-weight: 700;
+  font-family: 윤고딕;
+  font-size: 18px;
+}
+
+.CS_CENTER li {
+  padding-left: 30px;
+}
+
+.CS_CENTER .li a {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 윤고딕;
+  color: #616161;
+}
+
+/*CS CENTER*/
+/*Exchange*/
+.Exchange {
+  width: 370px;
+  height: 130px;
+  float: left;
+  border-right: 1px solid #1c1c19;
+}
+
+.Exchange .ln {
+  padding-bottom: 8px;
+}
+
+.Exchange .ln a {
+  font-weight: 700;
+
+  font-size: 18px;
+}
+
+.Exchange li {
+  padding-left: 30px;
+
+}
+
+.Exchange .li a {
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #616161;
+}
+
+
+
+.Exchange .small {
+  width: 278px;
+  height: 35px;
+  float: left;
+  padding-left: 50px;
+  line-height: 15px;
+  padding-top: 5px;
+}
+
+.Exchange .small a {
+  font-size: 10px;
+
+  color: #616161;
+}
+
+/*Exchange*/
+/*sns*/
+.sns {
+  width: 240px;
+  height: 130px;
+  float: left;
+
+}
+
+.sns .ln {
+  padding-left: 30px;
+  padding-bottom: 13px;
+  font-weight: 700;
+  font-family: 윤고딕;
+  font-size: 18px;
+}
+
+.sns li {
+  float: left;
+  padding-right: 8px;
+}
+
+.sns li a {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 윤고딕;
+
+}
+
+.sns li a img {
+  width: 50px;
+  height: 50px;
+}
+
+/*sns*/
+
+/*팝업*/
+
+#popup {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.5);
+  z-index: 50;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: none;
+
+
+}
+
+.popup_inner {
+  width: 360px;
+  height: 400px;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  display: block;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+
+}
+
+.popup_inner .insta {
+  width: 130px;
+  height: 40px;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+}
+
+.popup_inner .right {
+  float: right;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.popup_inner .popup_inners {
+  width: 280px;
+  height: 108px;
+
+  margin: auto;
+  top: 80px;
+  left: 40px;
+  position: absolute;
+}
+
+.inputs {
+  width: 330px;
+
+  padding-top: 10px;
+}
+
+
+
+input[type="text" i],
+input[type="password" i] {
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  border-radius: 3px;
+}
+
+input {
+  padding-bottom: 20px;
+}
+
+#enter {
+  width: 280px;
+  height: 28px;
+  margin: 10px auto auto auto;
+  background-color: #4db5f9;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 5px;
+
+}
+
+#enter a {
+
+  font-weight: 700;
+  color: white;
+}
+
+.popup_innerss {
+  width: 280px;
+  height: 120px;
+  margin: 65% auto auto;
+}
+
+
+.popup_innerss .line {
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  color: #8e8e8e;
+  margin: 8px 0;
+}
+
+.popup_innerss .line::before {
+  content: "";
+  flex-grow: 1;
+  margin: 0px 16px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #dbdbdb;
+  height: 1px;
+  font-size: 0;
+  line-height: 0px;
+}
+
+.popup_innerss .line::after {
+  content: "";
+  flex-grow: 1;
+  margin: 0px 16px;
+  background: rgba(0, 0, 0, 0.3);
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+}
+
+.popup_innerss .pass {
+  padding-bottom: 5px;
+  text-align: center;
+  padding-left: 20px;
+  margin-right: 74px;
+}
+
+.popup_innerss span {
+  text-align: center;
+  color: #496cb2;
+  margin-left: 5px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.popup_innerss .pass2 {
+  text-align: center;
+  color: #2e4064;
+}
+
+.popup_innersss {
+  width: 360px;
+  height: 45px;
+  margin: auto;
+  border-top: 1px solid #dbdbdb;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+.popup_innersss .go {
+  font-weight: 700;
+  color: #4db5f9;
+}
+
+/*팝업*/
+
+
+/*푸터 하단*/
+.footer_innerin {
+  width: 1200px;
+  height: 25px;
+  margin: auto;
+  padding-top: 50px;
+
+}
+
+.footer_innerin li {
+  float: left;
+}
+
+.footer_innerin li a {
+  float: left;
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+.footer_innerin .all {
+  text-align: right;
+  font-size: 12px;
+}
+
+/*푸터 하단*/
+.fixed {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+}
+
+.fixed:hover {
+  opacity: 0.8;
+}
+
+/*푸터*/
